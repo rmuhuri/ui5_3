@@ -1,0 +1,4 @@
+<minion:View xmlns:minion="sap.ui.core.mvc" xmlns="sap.m" controllerName="mickey.controller.Main">
+<Button id="zBtn"  text="Value from Input" press="anotherFX"> </Button>
+<Input  id="idInp" value="x" width="25%"></Input>
+</minion:View>

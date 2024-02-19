@@ -1,0 +1,28 @@
+<html>
+<head>
+    <script src="https://ui5.sap.com/resources/sap-ui-core.js" 
+    data-sap-ui-libs="sap.m"
+    data-sap-ui-resourceroots='{
+                    "mickey": "./"
+                }'></script>
+    <script>
+        var oView = new sap.ui.view({
+            viewName: "mickey.view.Main",
+            type: "JS",
+            id: "idMainJS"
+        });
+        oView.placeAt("contentJS");
+        var oView1 = new sap.ui.view({
+            viewName: "mickey.view.Main",
+            type: "XML",
+            id: "idMainXML"
+        });
+        oView1.placeAt("contentXML");
+    </script>
+
+</head>
+<body class="sapUiBody">
+    <div id="contentJS"> welcome JS</div>
+    <div id="contentXML"> welcome XML</div>
+</body>
+</html>
